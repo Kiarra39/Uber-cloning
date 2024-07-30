@@ -1,0 +1,98 @@
+*
+
+
+/* Styling for the body */
+*{
+    margin:5px;
+    padding:0 px;
+}
+body {
+    background-color: black;
+}
+
+   
+
+nav {
+    display: flex;
+    
+     /* Ensures space between #left and #right */
+   
+    
+    
+}
+
+/* Styling for the logo */
+#logo {
+   
+   transform:scle(0.1); /* Optional: add padding for better spacing */
+}
+
+
+  .navigation-links button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px; /* Adjusted padding for consistency */
+    border: none;
+    
+    
+    font-family:sans-serif; /* Center items vertically */
+    font-size: 12px; /* Adjusted to a more standard size */
+    font-weight: 400; 
+    cursor: pointer;
+    justify-content: right;
+    
+}
+
+.left button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px; /* Adjusted padding for consistency */
+    border: none;
+    
+    
+    font-family:sans-serif; /* Center items vertically */
+    font-size: 12px; /* Adjusted to a more standard size */
+    font-weight: 400; 
+    cursor: pointer;
+    justify-content: left;
+    
+}
+
+
+button:hover{
+    background-color: grey;
+    border-radius: 100px; 
+}
+.extra button{
+    background-color: white;
+   padding:5px 5px;
+     color: black;
+     width: 70px; /* Width of the oval */
+     height: 30px; /* Height of the oval */
+     border-radius: 100px;
+}
+
+
+.bg{
+    display: flex;
+    justify-content: flex-end; /* Align items to the left */
+    width: 100%;
+    box-sizing: border-box;
+    padding:20px 70px 30px 30px;
+    
+}
+.ent
+{ 
+    position: relative;
+}
+.text{
+    color: white;
+    text-align: centre;
+}
+
+.price button
+{   background-color: white;
+    padding:15px 20px;
+      color: black;
+      border-radius: 10px;
+}
