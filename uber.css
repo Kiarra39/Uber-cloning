@@ -3,8 +3,9 @@
 
 /* Styling for the body */
 *{
-    margin:5px;
+    margin-top:10px;
     padding:0 px;
+    box-sizing: border-box;
 }
 body {
     background-color: black;
@@ -14,7 +15,9 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    
+   
+   
     
      /* Ensures space between #left and #right */
    
@@ -24,12 +27,17 @@ nav {
 
 /* Styling for the logo */
 #logo {
+  
    
-   transform:scle(0.1); /* Optional: add padding for better spacing */
+   padding:0px; /* Optional: add padding for better spacing */
 }
 
-
+.navigation-links{
+    
+    padding-right: 390px;
+}
   .navigation-links button {
+    
     background-color: transparent;
     color: white;
     padding: 10px 20px; /* Adjusted padding for consistency */
@@ -42,9 +50,10 @@ nav {
     cursor: pointer;
     
     
+    
 }
 
-.left button {
+.right button {
     
     background-color: transparent;
     color: white;
@@ -56,7 +65,7 @@ nav {
     font-size: 12px; /* Adjusted to a more standard size */
     font-weight: 400; 
     cursor: pointer;
-    justify-content: right;
+   
     
 }
 
@@ -75,26 +84,34 @@ button:hover{
      border-radius: 100px;
      
 }  
-
+.both{
+    display: flex;
+}
 
 .bg{
-    display: flex;
-    justify-content: flex-end; /* Align items to the left */
-    width: 100%;
-    box-sizing: border-box;
-    padding:80px 30px 30px 30px;
-    position:absolute;
+    
+    /* Align items to the left */
+   
+    
+    padding: 80px;
+    
+   
+    
      /* Allows precise positioning */
    
     
 }
 .ent
 { 
-padding:80px 30px 30px 30px;;
+padding:180px 80px;
+width:100%;
+
+
 }
 .text{
     color: white;
-    font-size: 40px ;
+    font-size: 30px ;
+    
    
 }
  #location{
