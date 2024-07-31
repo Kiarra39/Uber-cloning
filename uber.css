@@ -14,6 +14,7 @@ body {
 
 nav {
     display: flex;
+    justify-content: space-between;
     
      /* Ensures space between #left and #right */
    
@@ -37,13 +38,14 @@ nav {
     
     font-family:sans-serif; /* Center items vertically */
     font-size: 12px; /* Adjusted to a more standard size */
-    font-weight: 400; 
+   
     cursor: pointer;
-    justify-content: right;
+    
     
 }
 
 .left button {
+    
     background-color: transparent;
     color: white;
     padding: 10px 20px; /* Adjusted padding for consistency */
@@ -54,7 +56,7 @@ nav {
     font-size: 12px; /* Adjusted to a more standard size */
     font-weight: 400; 
     cursor: pointer;
-    justify-content: left;
+    justify-content: right;
     
 }
 
@@ -63,14 +65,16 @@ button:hover{
     background-color: grey;
     border-radius: 100px; 
 }
-.extra button{
+ .extra button{
+  text-align: center;
     background-color: white;
-   padding:5px 5px;
+   
      color: black;
      width: 70px; /* Width of the oval */
      height: 30px; /* Height of the oval */
      border-radius: 100px;
-}
+     
+}  
 
 
 .bg{
@@ -78,16 +82,31 @@ button:hover{
     justify-content: flex-end; /* Align items to the left */
     width: 100%;
     box-sizing: border-box;
-    padding:20px 70px 30px 30px;
+    padding:80px 30px 30px 30px;
+    position:absolute;
+     /* Allows precise positioning */
+   
     
 }
 .ent
 { 
-    position: relative;
+padding:80px 30px 30px 30px;;
 }
 .text{
     color: white;
-    text-align: centre;
+    font-size: 40px ;
+   
+}
+ #location{
+    width:400px;
+    height:35px;
+    border-radius: 5px;
+    
+}
+#destination{
+    width:400px;
+    height:35px;
+    border-radius: 5px;
 }
 
 .price button
